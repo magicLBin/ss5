@@ -4,7 +4,9 @@
 <pre><code>wget -N --no-check-certificate https://raw.githubusercontent.com/magicLBin/ss5/main/ss5.sh && bash ss5.sh</code></pre>
 
 ## 命令报错的话 请安装wget ##
-yum -y install wget 或者 apt -y install wget
+<pre><code>yum -y install wget</code></pre>
+或者 
+<pre><code>apt -y install wget</code></pre>
 
 ## 全自动安装（用户和端口全默认） ##
  <pre><code>wget -q -N --no-check-certificate https://raw.githubusercontent.com/magicLBin/ss5/main/install.sh && bash install.sh</code></pre>
